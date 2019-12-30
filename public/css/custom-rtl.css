@@ -1,0 +1,52 @@
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+/*_______________________________ Start Navigation Bar _______________________________*/
+
+.navbar-nav li a {
+  float: left;
+}
+
+.navbar-nav {
+  margin-right: auto;
+}
+
+.btn-group,
+.btn-group-vertical {
+  display: grid;
+}
+
+.details h5 {
+  text-align: right;
+}
+
+.tourist-programs .btn-info {
+  text-align: right !important;
+}
+
+/* .tourist-programs a {
+  text-align: right !important;
+} */
+
+.carousel-control-next {
+  right: 1126px;
+}
+
+.ml-auto{
+    margin-left: 0 !important;
+}
+
+/* _______________________________Start Footer _______________________________*/
+
+@media (max-width: 575.98px) {
+  .navbar-nav li a{
+    float: inherit;
+  }
+}
+
+
+
+
+
+
