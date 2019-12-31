@@ -123,4 +123,11 @@ class GetController extends Controller {
         return view('admin.showSiteSettings', compact('recordEN', 'recordAR','recordTR', 'recordPR','recordRO'));
     }
 
+
+    public function selectme($id)
+    { 
+        $records = VisaRequest::all()->where("deleted", 0);
+        return view("admin.showVisaReq", compact("records"));
+    }
+
 }
