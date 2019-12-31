@@ -124,10 +124,10 @@ class GetController extends Controller {
     }
 
 
-    public function selectme($id)
-    { 
-        $records = VisaRequest::all()->where("deleted", 0);
-        return view("admin.showVisaReq", compact("records"));
-    }
+    // public function selectme($id)
+    // { 
+    //     $records = VisaRequest::all()->where("deleted", 0);
+    //     return view("admin.showVisaReq", compact("records"));
+    // }
 
 }
